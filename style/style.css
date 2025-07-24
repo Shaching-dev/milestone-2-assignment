@@ -342,6 +342,11 @@ input[type="submit"] {
     justify-content: center;
     margin: 0 auto;
   }
+  .cart {
+    color: black;
+    display: flex;
+    gap: 10px;
+  }
   .home,
   .about,
   .shop {
