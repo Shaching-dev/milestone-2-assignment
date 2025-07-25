@@ -323,10 +323,16 @@ form {
 
 input[type="email"] {
   height: 3.125rem;
-  width: 40.25rem;
+  width: 45rem;
   padding-left: 1.25rem;
   font-size: 1rem;
+  background-color: white;
+  border: 1px solid rgb(234, 82, 82);
 }
+input[type="email"]:focus {
+  border: none;
+}
+
 input[type="submit"] {
   width: 11.625rem;
   height: 3.125rem;
@@ -392,6 +398,11 @@ input[type="submit"] {
     color: black;
     display: flex;
     gap: 0.625rem;
+    margin-top: 40px;
+  }
+  .header-container {
+    padding-left: 0;
+    margin-left: 0;
   }
   .home,
   .about,
@@ -453,7 +464,7 @@ input[type="submit"] {
   }
   input[type="email"] {
     height: 3.125rem;
-    width: 19rem;
+    width: 20rem;
   }
   input[type="submit"] {
     height: 3.125rem;
@@ -487,6 +498,15 @@ input[type="submit"] {
 
   .purchase-btn {
     padding: 1rem 2.813rem;
+  }
+}
+
+@media screen and (max-width: 440) {
+  input[type="submit"] {
+    width: 20px;
+  }
+  .input-container {
+    background-image: 100%;
   }
 }
 
