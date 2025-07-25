@@ -41,6 +41,15 @@
   }
 }
 
+@keyframes spinning-badge {
+  from {
+    transform: rotate(0 deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* shared----style */
 
 .container {
@@ -197,9 +206,14 @@ body {
   position: absolute;
   top: -120px;
 }
+
 .postion-badge img {
   width: 100%;
   filter: drop-shadow(4px -3px 1px rgb(134, 126, 126));
+  animation: spinning-badge 50s linear infinite;
+}
+
+.spinning-badge {
 }
 .third-section {
   margin-bottom: 100px;
