@@ -344,7 +344,9 @@ input[type="submit"] {
   line-height: 40px;
   color: #8987a1;
 }
-
+.twitter-icon {
+  height: 25px;
+}
 .media-section {
   display: flex;
   align-items: center;
