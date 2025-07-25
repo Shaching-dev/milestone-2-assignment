@@ -364,6 +364,14 @@ input[type="submit"] {
     justify-content: center;
     margin: 0 auto;
   }
+  .banner-description {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .banner-title {
+    margin-top: 40px;
+  }
   .cart {
     color: black;
     display: flex;
@@ -462,7 +470,7 @@ input[type="submit"] {
   }
 
   .purchase-btn {
-    padding: 15px 60px;
+    padding: 17px 45px;
   }
 }
 
